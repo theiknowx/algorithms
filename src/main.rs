@@ -1,3 +1,6 @@
+mod gcd;
+mod find_factors;
+
 fn main() {
-    println!("Hello, world!");
+    println!("{:?}", find_factors::find_factors(126));
 }
